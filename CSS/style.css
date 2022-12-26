@@ -1,0 +1,407 @@
+@charset "UTF-8"
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "yu Gothic medium";
+    "游ゴシック　medium",
+    YuGothic,
+    "游ゴシック体",
+    "ヒラギノ角ゴ Pro W3",
+    sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+  width: 300px;
+  margin: 0.auto;
+    height: auto; 
+}
+
+/* なぜ反映されない？→豆苗フォトフォルダにｃｓｓを入れ込んでいなかった。://を打ち込んでいなかった */
+
+.main-nav {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    /* ↑全ての文字を大文字表記するという意味 */
+    list-style: none;
+}
+
+.main-nav {
+    margin-left: 36px;
+    display: flex;
+      
+}
+
+.main-nav a {
+    color: #432;
+    background-color: #9b977b80;
+    font-family: "Nikukyu";
+    font-size: 20px;
+    font-weight: lighter;
+    word-break: break-all;
+    border-radius: 35%;
+}
+
+.main-nav a:hover {
+    color: #99cc65;
+    background-color: #9b977b80;
+    border-radius: 35%;
+}
+
+.main-nav li {
+    margin-top: 50px;
+    margin: 0.8rem;
+}
+
+.page-header {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #99cc65; 
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0%;
+    /* padding03から00に変えてみたけど。。。 */
+
+}
+
+h2 {
+
+    font-size: 4rem;
+    
+
+}
+
+.title1 {
+    font-family: 'Philodopher',serif;
+    
+    /* font-family: 'Yomogi', cursive; */
+    /* どっちにしようか？ */
+
+}
+a1{
+font-family:'Philodopher',serif; ;
+}
+
+.title2 {
+    font-family: 'Shippori Mincho B1', serif;
+    margin-top: 10px;
+    
+}
+
+/* ホーム */
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.home-content p {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.15rem;
+    margin: 40px 0 42px;
+}
+/* ボタン */
+.button{
+    font-size: 1.375rem;
+    background: #c8d599;
+    color:#5f3830;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover{
+    background: #dddddd;
+}
+/* 大きな背景画像 */
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+}
+#home{
+background-image: url(../images/toumyoutop.jpg);
+background-size:contain ;
+height: 100vh;
+
+}   
+
+/* #home .page-title .page-title2{
+text-transform: none;
+} */
+.big{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.big-box .big-box2 img{
+    height: 94%;
+    width: 100%;
+}
+article{
+    width: 88%;
+}
+aside{
+width: 20%;
+}
+aside a{
+    font-size:17px;
+}
+.Photo-contents{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+}
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #99cc65 solid;
+    font-weight: normal;
+}
+.sub-menu{
+    margin-bottom: 60px;
+list-style: none;
+    
+}
+.sub-menu li{
+border-bottom: 1px #432 solid;
+}
+.sub-menu a{
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+.sub-menu a:hover{
+    color: #99cc65;
+}
+#home3{
+    background-image: url(../images/drink.tate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Photo-contents article p{
+    text-align: center;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 18px;
+    font-weight: 1000;
+    color: black;
+}
+
+.Photo-contents article h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Shippori Mincho B1', serif;
+}
+/* ギャラリーページ */
+
+
+/* フィルムページ */
+.film{
+    background-image: url(../images/huusen2.jpg);
+    background-repeat: repeat;
+background-size: cover;}
+
+.film{
+    display: flex;
+    justify-content: space-between;
+}
+.film2{
+    margin-top: 5px;
+}
+h4{
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+font-size:50px;
+}
+.film2 p{
+    text-align: center;
+font-family:'Shippori Mincho B1', serif ;
+font-weight: 400;
+font-size: 20px;}
+
+/* アカウント */
+.umebosi{
+   text-align: center;
+background-image: url(../images/huusen2.jpg);
+background-repeat: repeat;
+background-size: cover;
+}
+.sns a{
+color: #614414;
+background-color: #ffffff66;
+border-radius: 70%;
+font-family: 'Mochiy Pop P One', sans-serif;
+/* font-family: 'Potta One', cursive; */
+
+font-size: 30px;
+}
+
+.sns a:hover{
+    color:#faa61a;
+}
+p9{
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: 1000;
+    font-size: 30px;
+    border-bottom: #432 1px solid;
+}
+p10{font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+font-size: 18px;
+font-weight: 500;
+color: #432;
+
+}
+h5{
+    font-family:'Shippori Mincho B1', serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+} 
+
+
+/* 文章ページ */
+
+/* ポートレートページ */
+
+.potore{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+#home7{
+    background-image: url(../images/huusen2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* pcでは無効（改行しない） */
+.sma{
+    display: none;
+}
+@media(max-width:600px){
+    /* スマホでは有効（改行する） */
+    .sma{display: block;}
+    .Photo big{
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+    /* サイドバー */
+    .Photo-contents{
+        flex-direction: column;
+    }
+    article{
+        width: 100%;
+    }
+    aside{
+        width: 50%;
+    }
+    /* ヘッダー */
+    .main-nav{
+        font-size: 15px;
+        margin: 0 auto;
+       
+}
+.main-nav li{
+    margin: 2px;
+}
+      
+    
+    .page-header{
+        margin-bottom: auto;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid #99cc65 ; 
+    }
+    
+    
+    /* 文章ページ */
+.Photo-contents  p{
+    font-size: 10px;
+    word-break: keep-all;
+}
+#home3{
+    display:block;
+}
+#home3 h1{
+    font-size: 18px;
+}
+#home3 p{
+    font-size: 12px;
+}
+.tyuuou{
+   margin: 0 auto;
+    background-color: #dddddd90 ;
+    border-radius: 15%;
+    
+}
+.tyuuouh{
+    margin-left: 12px;
+}
+.tyuuou a{
+    margin-left: 30px;
+}
+
+    /* 入口ページ */
+    #home{
+        background-image: url(../images/toumyoutop.jpg);
+        
+        }  
+        .big-bg{
+            background-size: cover;
+            background-position: center top;
+        }
+        #home{
+        background-image: url(../images/toumyoutop.jpg);
+        background-position: 30px 80px;        
+        }   
+       /* アカウントページ */
+      p9{
+        font-size: 18px;
+        
+      }
+      p10{
+        font-size: 16px;
+      }
+
+/* ↑アカウントページでは、背景画像の位置の調整が必要だよ。 */
+#umebosi{
+    background-image: url(../images/enoguhaikei.jpg);
+}
+/* できない！！！ */
+    /* 文章ページ */
+    /* 過去作品ページ */
+    h5{
+        font-weight: 20px;
+    }
+
+    /* ポートレートページ */
+    /* フィルムページ */
+    h4{
+        font-size: 25px;
+    }
+
+}
+
+
