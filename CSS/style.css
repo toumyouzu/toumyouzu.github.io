@@ -223,7 +223,7 @@ background-size: cover;}
 
 .film{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .film2{
     margin-top: 5px;
